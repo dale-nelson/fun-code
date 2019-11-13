@@ -2,7 +2,7 @@ def main():
     print("This program will calculate the addition of natural numbers in sequence.")
     userInput = validLoop()
     posCheck = isPos(userInput)
-    print("The sum of all the natural numbers less than {0} is {1}".format(posCheck,naturalNumAdd(posCheck)))
+    print("The sum of all the natural numbers up to {0} is {1}".format(posCheck,naturalNumAdd(posCheck)))
     return
 
 def naturalNumAdd(i):
