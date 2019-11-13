@@ -4,4 +4,4 @@ def fibonacci(i):
   #if fibonacci:
   return fibonacci(i - 1) + fibonacci(i - 2)
 
-print(fibonacci(7))
+print(fibonacci(5))
