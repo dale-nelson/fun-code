@@ -37,7 +37,7 @@ def bottomHalf(n):
     count = n
     count -= 2
     while count >= 0:
-        print(' ' * (n - count - 1), '*' * count + '*' * count)
+        print(' ' * (n - count - 1), '*' * count + '*' * (count - 1))
         count -= 1
 
 main()
