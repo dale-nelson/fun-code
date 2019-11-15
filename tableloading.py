@@ -36,8 +36,12 @@ row = []
 column = []
 
 #Ok, so I relized what I did here was I had already split up all the words into characters
-for char in dLW[3]:
-    column.append(char)
+for i in dLW:
+    for char in i:
+        column.append(i)
+    row.append(column)
 
 print(len(column))
 print(column)
+#print(len(row))
+#print(row)
