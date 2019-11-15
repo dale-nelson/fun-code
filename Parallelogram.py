@@ -1,3 +1,5 @@
+#Code written by Jospeh Webb
+
 def para(x, y=1, z=0):
     if type(x) != int:
         print("Not an int")
